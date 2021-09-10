@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: white;
+  color: black;
+}
+.login{
+ position: absolute;
+ right: 0px;
+  
+}
+
+body{
+  background-color: bisque;
+}
+
+#contactlogo{
+  
+  width: 400px;
+  height: auto;
+}
+
+.socials {
+  display: flex;
+  justify-items: space-evenly;
+  justify-content: center;
+}
+.socials a img {
+  width: 45px;
+  height: 35px;
+  margin: 2px 2px 3px 0px; 
+}
+.join{
+  display: flex;
+  justify-content: right;
+ z-index: 1;
+ 
+}
+.join a img{
+  width: 45px;
+  height: 35px;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "project-pikachu",
+  "version": "1.0.0",
+  "description": "project where i test my front end and backend skills",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
